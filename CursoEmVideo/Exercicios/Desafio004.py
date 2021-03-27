@@ -8,8 +8,23 @@ print(msg)
 algo = input('Digite algo: ')
 
 print(algo)
-print('O tipo do elemento digitado é: ')
-print(type(algo))
+print('O tipo do elemento digitado é: ', type(algo))
+print('--------------------------------')
+
+print('É numerio ?', algo.isnumeric())
+print('--------------------------------')
+
+print('É decimal?')
+print(algo.isdecimal())
+print('--------------------------------')
+
+print('É AlphaNumerico?')
+print(algo.isalnum())
+print('--------------------------------')
+
+print('É Alfabetico?')
+print(algo.isalpha())
+
 
 
 
